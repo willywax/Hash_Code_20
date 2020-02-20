@@ -1,7 +1,9 @@
 const fileManager = require('./fileManager');
 
 
+// Name of File
 const file = 'data/b_read_on';
+// const file = 'data/a_example';
 
 const data = fileManager.readFile(file)
 
